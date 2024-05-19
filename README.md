@@ -4,15 +4,14 @@ The WiDS Datathon 2024 centers on predicting a patient's Metastatic Diagnosis Pe
 Each record represents a patient and includes characteristics such as age, race, BMI, and zip code; diagnosis and treatment information related to breast and metastatic cancer.
 geo-demographic data like income, education, rent, race, and poverty; and climate data linking health outcomes to external conditions.
 The task involves utilizing these variables to predict the Metastatic Diagnosis Period in the test dataset. Participants are expected to handle messy data appropriately, reflecting real-world data scenarios.
-The training dataset train.csv where the observed values of the outcome [Metastatic Diagnosis Period] for each row is provided.
 
-The test dataset test.csv where we withhold the observed values of the outcome for each row
+- 1) The training dataset train.csv where the observed values of the outcome [Metastatic Diagnosis Period] for each row is provided.
 
-You are also provided with an example of a solution file prepared for submission.
+- 2) The test dataset test.csv where we withhold the observed values of the outcome for each row
 
-Target
+### Target
 metastatic_diagnosis_period: This refers to the number of days from the initial breast cancer diagnosis to the diagnosis of metastatic cancer, indicating the progression of breast cancer to a metastatic state.
 
-Columns & rows
-Training dataset consists of 13173 rows and 152 columns
-Test dataset consists of 5646 rows and 151 columns
+### Columns & rows
+- The Training dataset consists of 13173 rows and 152 columns
+- The Test dataset consists of 5646 rows and 151 columns
